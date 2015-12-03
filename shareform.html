@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+   <title>CISE - Center for Innovation in Science Education</title>
+		<!-- Favicon  -->
+		<link rel="icon" href="image/logo/favicon.ico" type="image/x-icon">
+		
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/main_template.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+   
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body background="image/background.jpg">
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Page Heading/Breadcrumbs -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Share Your Project</h1>
+               
+            </div>
+        </div>
+        <!-- /.row -->
+
+     
+        <!-- Contact Form -->
+        <div class="well">
+            <div class="row">
+                <div class="col-md-8">
+                    <p>This website works best on Google Chrome</p>
+                </div>
+                
+            </div>
+        </div>
+        <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
+        <div class="row">
+            <div class="myform col-md-8">
+                
+                <form name="sentMessage" id="contactForm" novalidate class="form-inline" method="post" action="signup.php">
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Contact Name :</label>
+                            <input type="text" class="form-control" name="name" id="name" required data-validation-required-message="Please enter your name.">
+                            <p class="help-block"></p>
+                        </div>
+                    </div>
+                    
+                    <div class="control-group checkbox">
+                        <div class="controls">                            
+                            <label>Make your name public?</label>
+                            	<select id="namepublic">
+                            		<option value="Unpublic">No</option>
+                            		<option value="Public">Yes</option>
+                            	</select>
+                            	
+                            <p class="help-block"></p>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Email Address:</label>
+                            <input type="email" class="form-control" name="email" id="email" required data-validation-required-message="Please enter your email address.">
+                        </div>
+                    </div>
+                    
+                     <div class="control-group checkbox">
+                        <div class="controls">                            
+                            <label> Make your email public?	</label>
+                            <select id="emailpublic">
+                            		<option value="Unpublic">No</option>
+                            		<option value="Public">Yes</option>
+                            	</select>
+                            <p class="help-block"></p>
+                        </div>
+                    </div>
+                    
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Project Title:</label>
+                            <textarea rows="1" class="form-control" name="title" id="title" required data-validation-required-message="Please enter your project title" maxlength="60" style="resize:none"></textarea>
+                        </div>
+                    </div>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Project Webpage:</label>
+                            <textarea rows="1" class="form-control" name="webpage" id="webpage" required data-validation-required-message="Please enter your webpage" maxlength="60" style="resize:none"></textarea>
+                        </div>
+                    </div>
+                    
+                     <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Project Image Link : </label><span> (If you want us to post a picture, please include a link to one)</span>
+                            <textarea rows="1" class="form-control" name="image" id="image"  maxlength="90" style="resize:none"></textarea>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Participant Age : </label>
+                            <textarea rows="1" class="form-control" name="age" id="age" required data-validation-required-message="Please enter participant age restriction" maxlength="60" style="resize:none"></textarea>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+    										<label>Cost :</label>
+    										<label class="sr-only" for="Amount">Amount (in dollars)</label>
+    										<div class="input-group">
+      									<div class="input-group-addon">$</div>
+      									<input type="text" class="form-control" id="cost" name="cost"  placeholder="Amount">
+      									<div class="input-group-addon">.00</div>
+   											</div>
+  									</div>
+  									<br>
+  									<br>
+  									<div class="form-group">
+    										<label> Activity Start Date:</label>
+    										<label class="sr-only" for="startdate">date</label>
+    										<div class="input-group">
+      									<div class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></div>
+      									<input type="text" class="form-control" name="startdate" id="startdate" placeholder="Date" required data-validation-required-message="Please enter your activity start date.">
+      									
+   											</div>
+   											
+  									</div>
+  									<br>
+  									<br>
+  									<div class="form-group">
+    										<label> Activity End Date :</label>
+    										<label class="sr-only" for="enddate">date</label>
+    										<div class="input-group">
+      									<div class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></div>
+      									<input type="date" class="form-control" name="enddate" id="enddate" placeholder="Date" required data-validation-required-message="Please enter your activity end date.">
+      									</div>
+  									</div>
+  									<br>
+  									<br>
+  									<div class="form-group">
+    										<label> Activity Start Hour:</label>
+    										<label class="sr-only" for="starthour">hour</label>
+    										<div class="input-group">
+      									<div class="input-group-addon"><span class="glyphicon glyphicon-time"></span></div>
+      									<input type="text" class="form-control" name="starthour" id="starthour" placeholder="Hour" required data-validation-required-message="Please enter your activity start hour.">
+      									
+   											</div>
+  									</div>
+  									<br>
+  									<br>
+  									<div class="form-group">
+    										<label> Activity End Hour:</label>
+    										<label class="sr-only" for="endhour">hour</label>
+    										<div class="input-group">
+      									<div class="input-group-addon"><span class="glyphicon glyphicon-time"></span></div>
+      									<input type="text" class="form-control" name="endhour" id="endhour" placeholder="Hour" required data-validation-required-message="Please enter your activity end hour.">
+      									
+   											</div>
+  									</div>
+  									<br>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Location:</label>
+                            <textarea rows="1" class="form-control" name="location" id="location" required data-validation-required-message="Please enter your location" maxlength="999" style="resize:none"></textarea>
+                        </div>
+                    </div>
+                    
+                     <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Brief description:</label>
+                            <textarea rows="5"  class="form-control" name="description" id="description" required data-validation-required-message="Please enter your description" maxlength="350" style="resize:none"></textarea>
+                        </div>
+                    </div>
+                    
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Other information for us:</label>
+                            <textarea rows="5" cols="100" class="form-control" name="otherinfo" id="otherinfo" maxlength="450" style="resize:none"></textarea>
+                        </div>
+                    </div>
+                    
+                    <div id="success">
+                    	
+                    	</div>
+                    <!-- For success/fail messages -->
+                    <button type="submit" class="btn btn-primary">Share your project</button>
+                    
+                </form>
+            </div>
+
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+         <!-- Footer -->
+         <footer>
+            <div class="row">
+								<div class="col-md-6 footer-left">
+									<p><strong>Copyright &copy; CISE Website 2015</strong></p>
+            			<ul class="list-unstyled list-inline list-social-icons">
+                    <li>
+                        <a href="https://www.facebook.com/ciseatCNU"><i class="fa fa-facebook-square fa-3x"></i></a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://twitter.com/CNUcise"><i class="fa fa-twitter-square fa-3x"></i></a>
+                    </li>
+                   
+                </ul>
+									</div>            	
+            	
+            		
+            		
+            		
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <!-- Do not edit these files! In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+       
+     
+    
+</body>
+
+</html>

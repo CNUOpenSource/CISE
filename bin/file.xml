@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<programs>
+   <program id="1">
+    <date>06/25/15</date>
+    <name>Lynn Lambert</name>
+    <email>lynn.lambert@cnu.edu</email>
+    <title>Science Healthcare Career Camp - Summer STEM 2015</title>
+    <webpage>tncc.edu/summerstemcamps</webpage>
+    <age>Rising High School Seniors and Graduates</age>
+    <cost>20</cost>
+    <startdate>07/08/2015</startdate>
+    <enddate>07/08/2015</enddate>
+    <starthour>8:00 AM</starthour>
+    <endhour>5:00 PM</endhour>
+    <image>http://tncc.edu/wp-content/uploads/2015/05/STEM-Camps-.jpg</image>
+    <location>Thomas Nelson Historic Triangle Campus - 4601 Opportunity Way, Williamsburg, VA 23188</location>
+    <description>Having you ever thought about a career in the medical field? This camp is for you! Discover high grouwth careers and visit a local Health Care Facility. </description>
+    <condition>neither</condition>
+    <status>accepted</status>
+  </program>
+  <program id="2">
+    <date>06/25/15</date>
+    <name>Lynn Lambert</name>
+    <email>lynn.lambert@cnu.edu</email>
+    <title>Engineering &amp; Advanced Manufacturing Career Camp - Summer STEM 2015</title>
+    <webpage>tncc.edu/summerstemcamps</webpage>
+    <age>Rising High School Seniors and Graduates</age>
+    <cost>20</cost>
+    <startdate>07/15/2015</startdate>
+    <enddate>07/15/2015</enddate>
+    <starthour>8:00 AM</starthour>
+    <endhour>5:00 PM</endhour>
+    <image>http://tncc.edu/wp-content/uploads/2015/05/STEM-Camps-.jpg</image>
+    <location>Peninsula Workforce Development Center - 600 Burler Farm Road, Hampton, VA 23666</location>
+    <description>As manufacturing and engineering careers grow in Hampton Roads now is the best time to learn about exciting and high paying careers. </description>
+    <condition>neither</condition>
+    <status>accepted</status>
+  </program>
+  <program id="3">
+    <date>06/25/15</date>
+    <name>Lynn Lambert</name>
+    <email>lynn.lambert@cnu.edu</email>
+    <title>Information Technology Career Camp -Summer STEM 2015</title>
+    <webpage>tncc.edu/summerstemcamps</webpage>
+    <age>Rising High School Seniors and Graduates</age>
+    <cost>20</cost>
+    <startdate>07/22/2015</startdate>
+    <enddate>07/22/2015</enddate>
+    <starthour>8:00 AM</starthour>
+    <endhour>5:00 PM</endhour>
+    <image>http://tncc.edu/wp-content/uploads/2015/05/STEM-Camps-.jpg</image>
+    <location>Thomas Nelson Community College - Hamton III, 525 Butler Farm Road, Hampton, VA 23666</location>
+    <description>Technology is the key to the future. Cyber Security and Computer Technology could be in your future. Visit a local IT company on the forefront of technology. All Camps include lunch, field trips and campus tours.</description>
+    <condition>neither</condition>
+    <status>accepted</status>
+  </program>
+</programs>

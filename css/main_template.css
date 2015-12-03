@@ -1,0 +1,201 @@
+
+/* Global Styles */
+
+html,
+body {
+    height: 100%;
+     padding-top: 50px;
+		
+}
+.page-header {
+	overflow: auto;
+}
+.panel-body {
+	height: 230px;
+}
+.title {
+	width: 400px;
+	float:left;
+	border-radius: 15px;
+}
+.tablogo{
+	height:20px;
+	width:20px;
+}
+.littlelogo {
+	height:auto;
+}
+.logo1 {
+	width:350px;
+	float:left;
+}
+
+.nav-tabs.nav-justified > li > a {
+	height:64px;
+}
+.contact-body{
+	height: auto;
+}
+.container {
+	background-color: #f5f5dc;
+}
+.page-header {
+	margin: 20px 0px 20px;
+}
+.img-portfolio {
+    margin-bottom: 30px;
+}
+.form-inline .form-group {
+	width:100%;
+}
+.form-inline .form-control{
+	width:100%;
+}
+.h2, h2 {
+	text-align: center;
+}
+.panel-default > .panel-heading {
+	background-color: #75378e;
+	color:#fff
+}
+.page-header {
+	border-bottom: 2px solid #000;
+}
+hr {
+	border-color: #000000;
+}
+img {
+	height: 155px;
+}
+.img-hover:hover {
+    opacity: 0.8;
+}
+/* Navigation Bar */
+.navbar-inverse { background-color: transparent;
+									color: #000;
+								}
+.navbar-brand { padding-top: 8px;
+}
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+    color: #75378E;
+    background-color: transparent;
+   }
+.navbar-inverse .navbar-nav > li > a {
+	color: #000;
+}
+.pull-left > .fa-stack > img {
+	height:56px;
+	width: 56px;
+}
+.media-heading {
+	margin-top:10px;
+}
+.panel-footer > a:hover {
+	background-color:#75378e;
+	color: #fff;
+}   
+/* Home Page Carousel */
+.page-header { text-align: center;
+}
+header.carousel {
+    height: 50%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+nav {background-color: #ffffff;
+}
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+.myform {
+	background-color: #8ee6da;
+	padding-top:15px;
+	padding-bottom:15px;
+	border: 5px double #3daaa6;
+	border-radius: 20px;
+}
+.removedate {padding-left: 12px;
+}
+.period {
+    display: block;
+    font-style: italic;
+}
+
+.row{
+	margin-right:0px;
+}
+.panel-body ul{padding-left: 10px;
+}
+
+a {color:#850E98;}
+a:hover { color: #C836E0;}
+/* Footer Styles */
+
+footer {
+    margin: 25px 0;
+}
+
+footer .footer-left{
+	text-align: left;
+}
+footer .footer-right {
+	text-align: right;
+}
+.container {
+	padding-left: 30px;
+}
+
+
+.contact_info {
+	padding-left: 25px;
+}
+
+.form-inline .checkbox input[type="checkbox"]{
+	margin-top:0px;
+}
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
